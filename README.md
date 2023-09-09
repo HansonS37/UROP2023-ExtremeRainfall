@@ -6,8 +6,8 @@ all_ere_start.ipynb / extreme rainfall calculator.ipynb
 This file calculates the date of extreme rainfall events at all locations. We first calculate the 95 percentile of all wet days, and then delete consecutive days. 
 
 
-fig1.ipynb  
-Plot figure 1 using cartopy. 
+fig1_data.ipynb  fig1.ipynb  
+Prepare data for plotting figure 1 and plot figure 1 using cartopy. 
 
 
 Event_sync.py  
