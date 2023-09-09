@@ -9,6 +9,9 @@ This file calculates the date of extreme rainfall events at all locations. We fi
 fig1_data.ipynb  fig1.ipynb  
 Prepare data for plotting figure 1 and plot figure 1 using cartopy. 
 
+Comparison_ncep2.ipynb  Comparison_ncep2_2.ipynb
+These two files aims to compare the precipitation data from NCEP-reanalysis2 and TRMM. The way to compare is to find the common latitude included in both datasets and extract the data of that common latitude from 50N to 50S. Then, we plot these two sets of data on the same figure to compare them.
+
 
 Event_sync.py  
 This file aims to calculate the value of event synchronization between each two nodes using the ERE_start_date file. We first use calculate the threshold of each pair of extreme event between two nodes, and see how many pairs satisfy the thresholds. This number is the event synchronization value between these two nodes, and we only save the value if the ES value is larger than the 99.5% null model threshold. In this file, we use both Numba and parallel computation to enhance the calculation speed. 
