@@ -29,11 +29,11 @@ distanceKDE.ipynb
 In this file, we first use "distance_list" and KernelDensity to calculate the great circle distance under KDE. We save the result in "logprob.npy". We then use the distance distribution computed using distance_count.py to plot the distritbution of links. We can plot the distribution of links and np.exp(logprob) in the same figure to compare them and find the power law fit for links that have short distances. 
 
 
-fig3a&3b.py
+fig3a&3b.py  
 This file is about how we replot figure 3a and 3b. It shows how we select links and compute link bundles from SCA links we compute before and then plot them on a map. The file first reads all the data and randomly selects some links. Then the file uses scipy package to calculate the kernel density estimation(KDE) and compare the result with null Model computed to deduce link bundles.
 
 
-link_bundles_null_model.py 
+link_bundles_null_model.py   
 This file is about how we compute null model used in doing significant test and calculating link bundles. The file will use random package to generate links randomly according to total number of links, and then repeat for 600 times to get a randomly decided null model.
 
 
