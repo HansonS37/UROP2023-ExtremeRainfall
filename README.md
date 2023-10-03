@@ -2,7 +2,7 @@
 Contains revised code for "Complex networks reveal global pattern of  extreme-rainfall teleconnections"  
 
 
-read_data.py  download_TRMM.py
+read_data.py  download_TRMM.py   
 These two files are used for downloading TRMM precipitation data. 
 
 
@@ -13,7 +13,7 @@ This file calculates the date of extreme rainfall events at all locations. We fi
 fig1_data.ipynb  fig1.ipynb  
 Prepare data for plotting figure 1 and plot figure 1 using cartopy. 
 
-Comparison_ncep2.ipynb  Comparison_ncep2_2.ipynb
+Comparison_ncep2.ipynb  Comparison_ncep2_2.ipynb   
 These two files aims to compare the precipitation data from NCEP-reanalysis2 and TRMM. The way to compare is to find the common latitude included in both datasets and extract the data of that common latitude from 50N to 50S. Then, we plot these two sets of data on the same figure to compare them.
 
 
