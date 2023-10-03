@@ -2,6 +2,10 @@
 Contains revised code for "Complex networks reveal global pattern of  extreme-rainfall teleconnections"  
 
 
+read_data.py  download_TRMM.py
+These two files are used for downloading TRMM precipitation data. 
+
+
 all_ere_start.ipynb / extreme rainfall calculator.ipynb  
 This file calculates the date of extreme rainfall events at all locations. We first calculate the 95 percentile of all wet days, and then delete consecutive days. 
 
