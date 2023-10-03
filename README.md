@@ -49,7 +49,11 @@ We first find the corresponding indices for SCA and EU, and then compute two tim
 In this file, we include two methods to calculate the time series. The first method is given by author, which is very slow but straightforward. The second method computes t21 and t12 with much less computational cost. Then, these time series are filtered and local maximums that are greater than 95 percentile of all JJA data are chosen. 
 
 
-4d_anomalies_plot.ipynb  
-We obtain the data of wind speed. We compute the average wind speed over JJA seasons and subtract if from the average wind speed over local maximum days. This gives the anomalies data, and we plot it to obtain the Rossby-wave-like pattern. 
+4b4c_final.ipynb  
+We use the time series calculated in 4b_timeseries.ipynb and then find the dates of local maximum. The way to calculate anomalies is that we first compute the average value and subtract the average value from the selected ones. We first calculate the anomalies of precipitation of these local maximum dates and plot these anomalies as fig 4b. Afterwards, we calculate the anomalies of precipitation data of days that are three days later than the local maximum dates and plot these anomalies as fig 4c. 
+
+
+4d4e_final.ipynb  
+We obtain the data of wind speed. We use the same way to calculate anomalies. We first calculate the anomalies of wind speed of local maximum dates and plot them to obtain the Rossby-wave-like pattern in fig 4d. Then, we plot calculate the anomalies of wind speed of days that are three days later than local maximum dates to obtain fig 4e. 
 
 
